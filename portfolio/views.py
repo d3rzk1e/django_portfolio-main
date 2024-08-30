@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from .models import Author, Category, Work, Service, Testimony, Item, Message
 
+
 def index(request):
     categories = Category.objects.all()
     works = Work.objects.all()
