@@ -101,7 +101,7 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 # Email settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.your-email-provider.com'  # e.g., smtp.gmail.com
+EMAIL_HOST = 'smtp.bz.com'  # e.g., smtp.gmail.com
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'derzkie1994@gmail.com'
