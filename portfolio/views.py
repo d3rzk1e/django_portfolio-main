@@ -66,6 +66,6 @@ def contact_view(request):
             [settings.CONTACT_EMAIL],  # Replace with your email
             fail_silently=False,
         )
-        return render(request, 'your_template.html', {'message_sent': True})  # Adjust template name
+        return render(request, 'contact.html', {'message_sent': True})  # Adjust template name
 
-    return render(request, 'your_template.html')  # Adjust template name
+    return render(request, 'contact.html')  # Adjust template name
